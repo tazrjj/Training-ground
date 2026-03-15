@@ -9,9 +9,14 @@
 	align-items: center;
 	margin: auto;
 }
+
+
+$color: #16191d;
+$color2: #121028;
 body{
 	max-width: 1440px;
 	width: 100%;
 	min-height: 100vh;
 	@extend %center__flex;
+	background: $color2;
 }
